@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Light Sensor Emulator</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="../static/js/scripts.js"></script>
+</head>
+<body>
+<div>
+<a>
+<a id="monitoring_data">
+
+{#    В данном разделене представлен код html для дальнейшего развития веб-страницы#}
+{#    <label class="text-field__label__2" for="name">Текущее состояние системы</label>#}
+{#    <div class="div-inline-block">#}
+{#        <label class="text-block" for="name">Температура</label>#}
+{#        <label class="text-block" for="name">Влажность</label>#}
+{#        <label class="text-block" for="name">Кондиционирование</label>#}
+{#        <label class="text-block" for="name">Освещение</label>#}
+{#    </div>#}
+
+{#    <div class="div-inline-block">#}
+{#        <label class="text-block_2" for="temp_label"></label>#}
+{#        <label class="text-block_2" for="hume_label"></label>#}
+{#        <label class="text-block_2" for="cond_label"></label>#}
+{#        <label class="text-block_2" for="light_label"></label>#}
+{#    </div>#}
+{#    <hr>#}
+
+    <label class="text-field__label__2" for="name">Настройка состояния системы</label>
+
+    <div class="div-inline-block">
+        <div class="div-inline-block">
+            <label class="text-field__label" for="name">Температура</label>
+            <input class="text-block_2" type="text" id="value1" placeholder="Температура">
+            <button class="custom-btn btn-3" onclick="get_temperature()"><span>Отправить</span></button>
+        </div>
+        <div class="div-inline-block">
+            <label class="text-field__label" for="name">Влажность</label>
+            <input class="text-block_2" type="text" id="value2" placeholder="Влажность">
+            <button class="custom-btn btn-3" onclick="get_humidity()"><span>Отправить</span></button>
+        </div>
+        <div class="div-inline-block">
+            <label class="text-field__label" for="name">Кондиционирование</label>
+            <input class="text-block_2" type="text" id="value3" placeholder="Кондиционирование">
+            <button class="custom-btn btn-3" onclick="get_air_condition()"><span>Отправить</span></button>
+            <label class="switch">
+                <input type="checkbox" id="check1">
+                <span class="slider round"></span>
+            </label>
+
+        </div>
+        <div class="div-inline-block">
+            <label class="text-field__label" for="name">Освещение</label>
+            <input class="text-block_2" type="text" id="value4" placeholder="Освещение">
+            <button class="custom-btn btn-3" onclick="get_lightning()"><span>Отправить</span></button>
+            <label class="switch">
+                <input type="checkbox" id="check2">
+                <span class="slider round"></span>
+            </label>
+
+    </div>
+
+</div>
+</body>
+</html>
