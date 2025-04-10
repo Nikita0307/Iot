@@ -7,6 +7,9 @@
     <li>Python</li>
     <li>Flask</li>
     <li>MongoDB</li>
+    <li>html</li>
+    <li>css</li>
+    <li>javascript</li>
 </ul>
 
 
